@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+#cover-image{
+    height: 200px;
+    object-fit: cover;
+}
+
+#youtube-header {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#youtube-header-image {
+    max-width: 230px;
+    max-height: 95px;
+
+    border-radius: 50%;
+
+    width: auto;
+    height: auto;
+
+    /* float: left; */
+}
+
+#youtube-header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#youtube-header-item {
+    /* position: relative; */
+    /* width: 500px; */
+    margin-left: 5px;
+
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 2.1rem;
+    color: #ffffff;
+
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1861ffbd, 0 0 30px #1827ff, 0 0 40px #1827ff,
+        0 0 55px #1827ff, 0 0 75px #1827ff;
+
+    align-self: center;
+}
+
+.main {
+    text-align: center;
+}
