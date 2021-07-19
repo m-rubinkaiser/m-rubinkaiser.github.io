@@ -20,4 +20,5 @@
 
 iframe{
    background: url('Spinner.gif') 50% 50% no-repeat;
+   width: 100%;
 }
