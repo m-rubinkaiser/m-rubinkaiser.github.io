@@ -74,8 +74,8 @@ header {
     top: 0;
 
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
 
     z-index: -20000;
 
