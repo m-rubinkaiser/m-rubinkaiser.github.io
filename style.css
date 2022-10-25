@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font: 12px/1.5 "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+    line-height: 1rem;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+#cover-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+#youtube-header {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#youtube-header-image {
+    max-width: 230px;
+    max-height: 95px;
+
+    border-radius: 50%;
+
+    width: auto;
+    height: auto;
+
+    /* float: left; */
+}
+
+#youtube-header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#youtube-header-item {
+    /* position: relative; */
+    /* width: 500px; */
+    margin-left: 5px;
+
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 2.1rem;
+    color: #ffffff;
+
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1861ffbd, 0 0 30px #1827ff, 0 0 40px #1827ff,
+        0 0 55px #1827ff, 0 0 75px #1827ff;
+
+    align-self: center;
+}
+
+.main {
+    position: relative;
+}
+
+.bg {
+    background: url("bg.jpg");
+
+    /* Full height */
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+
+    top: 0;
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    z-index: -20000;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

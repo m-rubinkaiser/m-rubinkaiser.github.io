@@ -1,0 +1,24 @@
+.season-block, .game-title {
+    width: 100%;
+    text-align: center;
+}
+
+
+.season-video__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.season-full-video__container {
+    /* display: grid; */
+}
+
+.season-shorts__containder {
+}
+
+iframe{
+   /* background: url('Spinner.gif') 50% 50% no-repeat; */
+   width: 100%;
+}
